@@ -17,9 +17,9 @@ var moveZeroes = function (nums) {
   for (let i = lastIndex; i < nums.length; i++) {
     nums[i] = 0;
   }
-  console.log(nums);
+  return nums;
 };
-moveZeroes([0, 1, 0, 3, 12]);
+console.log(moveZeroes([0, 1, 0, 3, 12]));
 
 // var moveZeroes = function (nums) {
 //   //create variable and assign to 0
