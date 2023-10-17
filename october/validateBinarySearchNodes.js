@@ -228,7 +228,7 @@ function validateBinaryTreeNodes(n, leftChild, rightChild) {
     }
   }
 
-  return count === n; // We should be able to visit all nodes during BFS
+  return count === n; 
 }
 
 const n = 4,
