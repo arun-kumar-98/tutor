@@ -42,6 +42,6 @@ var greatestCommonDivisor = function (a, b) {
   return a;
 };
 
-// console.log(greatestCommonDivisor(4, 6));
+ console.log(greatestCommonDivisor(4, 6));
 // console.log(greatestCommonDivisor(100, 200));
 console.log(greatestCommonDivisor(7, 13));
