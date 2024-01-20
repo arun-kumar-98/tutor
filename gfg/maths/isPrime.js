@@ -29,14 +29,29 @@
  * Space Complexity::O(1)
  */
 
+// var isPrime = function (n) {
+//   if (n === 1) return false;
+
+//   //start from 2
+//   //increment by square root of n
+
+//   for (let i = 2; i * i <= n; i++) {
+//     if (n % i === 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// };
+
+///further optimization of code
+
 var isPrime = function (n) {
-  if (n === 1) return false;
+  if (n == 1 || n == 3) return true;
 
-  //start from 2
-  //increment by square root of n
+  if (n % 2 === 0 || n % 3 === 0) return false;
 
-  for (let i = 2; i * i <= n; i++) {
-    if (n % i === 0) {
+  for (let i = 5; i * i <= n; i++) {
+    if (n % i === 0 || n % (i + 2)) {
       return false;
     }
   }
