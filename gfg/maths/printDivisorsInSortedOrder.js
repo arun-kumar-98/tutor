@@ -6,17 +6,17 @@
 
 // Time Compexity::O(n)
 //Space Complexity::O(1)
-// var printDivisors = function (n) {
-//   if (n < 1) return undefined;
-//   if (n == 1) return 1;
+var printDivisors = function (n) {
+  if (n < 1) return undefined;
+  if (n == 1) return 1;
 
-//   for (let i = 1; i <= n; i++) {
-//     if (n % i === 0) {
-//       console.log(i);
-//     }
-//   }
-//   return -1;
-// };
+  for (let i = 1; i <= n; i++) {
+    if (n % i === 0) {
+      console.log(i);
+    }
+  }
+  return -1;
+};
 
 //approach#2
 
