@@ -36,6 +36,7 @@ class Solution {
       let mid = Math.floor(low + (high - low) / 2);
 
       if (arr[mid] > arr[mid - 1] && arr[mid] > arr[mid + 1]) {
+        // it can be also  if(arr[mid]>arr[mid+1])
         return arr[mid];
       } else if (arr[mid] < arr[mid + 1]) {
         low = mid + 1;
