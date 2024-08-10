@@ -32,4 +32,5 @@ const nums1 = [1, 2, 3, 0, 0, 0];
 let m = 3;
 const nums2 = [2, 5, 6];
 let n = 3;
-console.log(merge(nums1, m, nums2, n));
+// console.log(merge(nums1, m, nums2, n));
+console.log([0], 0, [1], 1);
